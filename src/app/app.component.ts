@@ -16,6 +16,6 @@ export class AppComponent {
 
   // Use this function to verify whether your Firebase connection is correctly configured.
   async sampleTest(){
-    console.log(await this.db.getDocuments("Your_Collection_Name"));
+    console.log(await this.db.getDocuments("items"));
   }
 }
